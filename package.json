@@ -1,0 +1,25 @@
+{
+  "name": "disney-plus-landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julia-slvbrg/disney-plus-landingpage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julia-slvbrg/disney-plus-landingpage/issues"
+  },
+  "homepage": "https://github.com/Julia-slvbrg/disney-plus-landingpage#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.72.0"
+  }
+}
