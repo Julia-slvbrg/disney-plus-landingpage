@@ -8,6 +8,15 @@
     transition: background-color .8s all ease;
     z-index: 1;
 
+    @media(max-width: 768px){
+        background-color: transparent;
+
+        &__logo, &__links__item:first-child{
+            visibility: hidden;
+            background-color: transparent;    
+        }
+    }
+
     &--is-hidden{
         background-color: transparent;
         transition: background-color .8s all ease;
@@ -16,7 +25,7 @@
             &__logo, &__links__item:first-child{
                 opacity: 0;
                 visibility: hidden;
-                transition: opacity .8s all ease;
+                transition: opacity .8s all ease;   
             }
         }  
     }
@@ -25,6 +34,10 @@
         padding: 8px 36px;
         display: flex;
         justify-content: space-between;
+
+        @media(max-width: 768px){
+            padding: 0 12px 0 12px;
+        }
     }
 
     &__logo{
@@ -32,6 +45,10 @@
         width: 100%;
         margin: 5px;
         transition: opacity .8s all ease;
+
+        @media(max-width: 768px){
+            max-width: 64px;
+        }
     }
 
     &__links{
@@ -47,5 +64,11 @@
     .button{
         height: 50px;
 
+        @media(max-width: 768px){
+            font-size: 13px;
+            padding: 8px 11px;
+            height: 40px;
+            letter-spacing: 0;
+        }
     }
 }
