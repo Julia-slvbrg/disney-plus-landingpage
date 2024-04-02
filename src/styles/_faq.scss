@@ -11,14 +11,21 @@
         &__item{
             background-color: #13151d;
             margin-bottom: 16px;
-           
+            font-weight: bold;
+            
             &__question{
                 color: #fff;
-                font-size: 20px;
+                font-size: 20px; 
+                line-height: 1.2;              
                 padding: 24px;
                 display: block;
                 cursor: pointer;
                 position: relative;
+
+                @media(max-width: 768px){
+                    font-size: 15px;
+                    padding: 18px;
+                }
 
                 &::after{
                     content: '+';
@@ -29,6 +36,10 @@
                     display: flex;
                     align-items: center;
                     font-size: 40px;
+                    
+                    @media(max-width: 768px){
+                        right: 18px;
+                    }
                 }
             }
 
