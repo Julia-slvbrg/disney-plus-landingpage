@@ -51,6 +51,7 @@ This application is a clone of the Disney+ landing page. It features tab selecti
 
 2. Mobile
 
+https://github.com/Julia-slvbrg/disney-plus-landingpage/assets/114543081/bc4bce1c-c622-4c8a-8d78-673feb6cbc25
 
 
 ## Demonstration
