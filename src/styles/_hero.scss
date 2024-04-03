@@ -48,6 +48,7 @@
         &__combos{
             display: flex;
             justify-content: space-between;
+            list-style-type: none;
 
             @media(max-width: 768px){
                 display: block;
